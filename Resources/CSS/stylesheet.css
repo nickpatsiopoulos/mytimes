@@ -61,7 +61,7 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 10px;
 }
 
 .article {
@@ -129,8 +129,8 @@ h1.phototitle2 {
 }
 
 .column.medium {
-  background-color: red;
   width: 300px;
+  padding: 0 10px;
 }
 
 .column.small {
