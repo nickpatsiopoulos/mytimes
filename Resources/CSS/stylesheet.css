@@ -1,0 +1,103 @@
+header {
+  display: inline-flex;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  height: 70px;
+}
+
+#logo {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+}
+
+#nav {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 50px;
+  width: 300px;
+}
+
+#nav2 {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.name {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  padding-left: 8px;
+}
+
+.navlink {
+  padding-right: 8px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+
+.main {
+  position: relative;
+  top: 400px;
+  height: 50px;
+  background-color: green;
+}
+
+
+
+
+
+
+
+div.footer {
+  position: relative;
+  height: 100px;
+  top: 800px;
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footlinks {
+  height: 20px;
+}
+
+.copyr {
+    height: 20px;
+}
+
+#footname {
+  padding-right: 25px;
+  margin-bottom: 5px;
+  border-right: 2px solid white;
+  color: white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footlink {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.footlink a {
+  color: black;
+}
+
+#copyright {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
