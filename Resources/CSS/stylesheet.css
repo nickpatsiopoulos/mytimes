@@ -1,4 +1,5 @@
 header {
+  background-color: white;
   display: inline-flex;
   position: fixed;
   width: 100%;
@@ -6,6 +7,7 @@ header {
   padding-bottom: 10px;
   border-bottom: 1px solid black;
   height: 70px;
+  z-index: 3;
 }
 
 #logo {
@@ -46,9 +48,73 @@ header {
 
 .main {
   position: relative;
-  top: 400px;
-  height: 50px;
-  background-color: green;
+  top: 70px;
+  height: 200px;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.column.large {
+  width: 630px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#phish {
+  background-image: url("../images/phish.png");
+  height: 300px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+h1.phototitle {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#fall {
+  position: relative;
+  background-image: url("../images/fall_foliage.png");
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#camera {
+  background-image: url("../images/camera.png");
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.articletitle {
+  width: 300px;
+}
+
+.articletext {
+  width: 100%;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.article2text {
+  width: 300px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 
@@ -56,11 +122,22 @@ header {
 
 
 
+.column.medium {
+  background-color: red;
+  width: 300px;
+}
+
+.column.small {
+  background-color: orange;
+  width: 240px;
+}
+
+
 
 div.footer {
   position: relative;
   height: 100px;
-  top: 800px;
+  top: 2000px;
   background-color: MediumAquamarine;
   font-family: Verdana;
   font-size: 12px;
