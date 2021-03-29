@@ -1,3 +1,5 @@
+/* header CSS*/
+
 header {
   background-color: white;
   display: inline-flex;
@@ -8,6 +10,8 @@ header {
   border-bottom: 1px solid black;
   height: 70px;
   z-index: 3;
+  margin-top: 0;
+  margin-top: -9px;
 }
 
 #logo {
@@ -46,6 +50,7 @@ header {
   color: black;
 }
 
+/*main section CSS*/
 .main {
   position: relative;
   top: 70px;
@@ -64,10 +69,6 @@ header {
   padding: 10px;
 }
 
-.article {
-  padding: 10px 5px;
-}
-
 #phish {
   background-image: url("../images/phish.png");
   height: 300px;
@@ -76,12 +77,25 @@ header {
   align-items: flex-start;
 }
 
-
 h1.phototitle {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  padding: 0 10px;
+}
+
+.article {
+  padding: 10px 5px;
+}
+
+#fall {
+  position: relative;
+  background-image: url("../images/fall_foliage.png");
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: flex-start;
 }
 
 h1.phototitle2 {
@@ -92,13 +106,12 @@ h1.phototitle2 {
   text-align: center;
 }
 
-#fall {
-  position: relative;
-  background-image: url("../images/fall_foliage.png");
-  height: 300px;
-  width: 300px;
-  display: flex;
-  align-items: flex-start;
+h1.articletitle {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  text-align: left;
 }
 
 #camera {
@@ -125,7 +138,6 @@ h1.phototitle2 {
   width: 300px;
   font-family: Georgia;
   font-size: 17px;
-  color: black;
 }
 
 .column.medium {
@@ -133,12 +145,53 @@ h1.phototitle2 {
   padding: 0 10px;
 }
 
+#cat {
+  background-image: url("../images/cat.png");
+  height: 300px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
 .column.small {
-  background-color: orange;
   width: 240px;
 }
 
+#cookie {
+  background-image: url("../images/cookie.png");
+  height: 240px;
+}
 
+#smalltitle {
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 20px;
+  text-transform: uppercase;
+}
+
+#newsbites {
+  display: flex;
+  list-style-type:none;
+  flex-direction: column;
+  padding: 0 5px;
+}
+
+.newsbites {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  font-weight: 3;
+  color: DimGray;
+  text-align: left;
+  border-bottom: 1px solid DarkGray;
+  padding: 10px 5px;
+  text-transform: none;
+}
+
+
+/* footer CSS */
 
 div.footer {
   position: relative;
